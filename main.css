@@ -1,0 +1,85 @@
+/*------------------------------
+=BASIC SETUP
+------------------------------*/
+
+/* Makeshift CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Tell the browser to render HTML 5 elements as block */
+div, header, footer, section, aside, nav, article {
+	display: block;
+}
+
+body {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	margin: 0px auto auto 2px;
+	height: 1000px;
+}
+
+nav {
+}
+
+footer {
+	background: #4c6688;
+	bottom: 0px;
+	color: #dbe7f6;
+	padding: 5px;
+	position: fixed;
+	margin: 0px auto;
+	width: 150px;
+}
+
+#wrapper {
+	width: 720px;
+	margin: 40px auto 0;
+}
+
+.tabContainer {
+	width:700px;
+	padding:15px;
+	background: #4c6688;
+	border-radius: 4px;
+}
+
+.tabHeader {
+	float: left;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 13px;
+	list-style: none;
+	margin: 2px;
+	padding: 5px;
+}
+
+.tabs {
+	height: 30px;
+}
+
+.tabs > ul {
+	list-style: none;
+	user-select: none;
+}
+.tabs > ul > li {
+	background-color: #dbe7f6;
+	border-top-left-radius: 5px;
+	color: #4c6688;
+	display: block;
+	float: left;
+	margin: 2px 2px 0 0;
+	-webkit-user-select: none;
+	padding: 5px;
+}
+
+.tabs ul li:hover {
+	cursor: pointer;
+}
+
+.tabs > ul > li.tabActiveHeader {
+	color: #dbe7f6;
+	background: #4c6688;
+}
+.tabscontent {
+}
